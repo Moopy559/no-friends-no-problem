@@ -1,5 +1,9 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 150px;
     background-color: black;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
 }
