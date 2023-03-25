@@ -11,8 +11,18 @@
     <!--Model Viewer JS-->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
 
+    <div>
+        <h1>
+            No Friends? No Problem!
+        </h1>
+        <p>
+            Don't you hate when you want to party but you don't have any friends?<br>
+            Now you don't need to spend Friday night alone - click on the button below to summon your very own friend, Party Peter, through the power of augmented reality!
+        </p>
+    </div>
+
     <!--Model Viewer HTML START-->
-    <model-viewer src="TestAR.glb" ar ar-scale="fixed" ar-modes="scene-viewer" camera-controls poster="poster.webp" shadow-intensity="1">
+    <model-viewer src="TestAR.glb" ar ar-scale="fixed" ar-modes="webxr" camera-controls poster="poster.webp" shadow-intensity="1">
         <div class="progress-bar hide" slot="progress-bar">
             <div class="update-bar"></div>
         </div>
@@ -23,7 +33,37 @@
             <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
         </div>
     </model-viewer>
-    
     <!--Model Viewer HTML END-->
+
+    <div>
+        <h2>
+            Features of Party Peter
+        </h2>
+        <table>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Party Peter</th>
+                <th>Real Life Friends</th>
+            </tr>
+            <tr>
+                <th>Always free to hang out</td>
+                <td>&check;</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Never late</td>
+                <td>&check;</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>Listens to your boring work stories</td>
+                <td>&check;</td>
+                <td>X</td>
+            </tr>
+        </table>
+    <button class="summoning-jutsu">
+        Let's Party!
+    </button>
+    </div>
 </body>
 </html>
